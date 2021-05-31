@@ -25,6 +25,8 @@ li{
     --fontColor:var(--black);
     --btnFontColor:var(--white);
     --btnBg:var(--black);
+    --btn2FontColor:var(--black);
+    --btn2Bg:var(--white);
 }
 
 .dark-theme{
@@ -32,6 +34,8 @@ li{
     --fontColor:var(--green);
     --btnFontColor:var(--black);
     --btnBg:var(--white);
+    --btn2FontColor:var(--black);
+    --btn2Bg:var(--white);
 }
 
 *{
@@ -62,3 +66,21 @@ body{
 
 .btn:focus{outline-style: none;}
 
+.btn2{
+    color: var(--btn2FontColor);
+    background-color: var(--btn2Bg);
+}
+
+.btn2{
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btn2FontColor);
+    background-color: var(--btn2Bg);
+}
+
+.btn2:focus{outline-style:none;}
